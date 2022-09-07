@@ -1,8 +1,8 @@
 defmodule NervesSystemRpi.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi
+  @github_organization "ringvold"
+  @app :nerves_system_rpi_wifi
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
